@@ -1,0 +1,524 @@
+{
+	autofocus_id: "25028C8599B07094"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_steps"
+	group: "15DF6CFCD42A7935"
+	icon: "minecraft:grass_block"
+	id: "3B729F95430245E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to &2No Limits for Creativity&r modpack! This questline will lead you through this modpack."]
+			icon_scale: 0.8d
+			id: "25028C8599B07094"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6CB67E164B4F1822"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25028C8599B07094"]
+			description: ["Obtain 4 wooden planks"]
+			icon: "minecraft:oak_planks"
+			id: "636AC15877C2FCC1"
+			subtitle: "Obtain 4 wooden planks"
+			tasks: [{
+				count: 4L
+				id: "21039C61CD3CD692"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			title: "Gettin' Some Wood"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["636AC15877C2FCC1"]
+			description: ["Craft 1 crafting table"]
+			id: "7AE1004AC9853989"
+			shape: "gear"
+			subtitle: "Craft 1 crafting table"
+			tasks: [{
+				id: "5852DD462D9D30DC"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "It's Crafting Time!"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			id: "6706EA7FFEADE46E"
+			subtitle: "Craft your first pickaxe"
+			tasks: [{
+				id: "73E805D442C10E42"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ugh... It's mining time?"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			id: "101308D4BF9948E2"
+			optional: true
+			tasks: [{
+				id: "4A9C44354FCC5454"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Self Defense"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			description: ["Obtain wooden axe"]
+			id: "5F77C18809E17F13"
+			optional: true
+			subtitle: "Obtain wooden axe"
+			tasks: [{
+				id: "105623B8FB60F4B3"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Deforester 1000"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			description: ["Obtain wooden shovel"]
+			id: "25F78515E5B0BF8F"
+			optional: true
+			subtitle: "Obtain wooden shovel"
+			tasks: [{
+				id: "48EB2131F59F7A54"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "To the Center of the Earth"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			description: ["Obtain wooden hoe"]
+			id: "0FD5144AD5F5265A"
+			optional: true
+			subtitle: "Obtain wooden hoe"
+			tasks: [{
+				id: "68C33E4CFC014673"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Farmin'"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6706EA7FFEADE46E"]
+			description: ["Obtain cobblestone"]
+			id: "2851173B03596F8F"
+			subtitle: "Obtain cobblestone"
+			tasks: [{
+				id: "4003DC04C627EF87"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobble Cobble Cobble."
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			id: "311F2B22E278B685"
+			optional: true
+			subtitle: "Very useful in early stages of survival or in your adventures"
+			tasks: [{
+				id: "58701B74C37C8F93"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Adventure Time"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2851173B03596F8F"]
+			id: "513FC50D3580A38A"
+			shape: "gear"
+			tasks: [{
+				id: "37318585FA171B35"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513FC50D3580A38A"]
+			id: "7F5D2891BAE00D81"
+			tasks: [{
+				id: "6C8E03BED566AFC4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61F40E8395C02E28"]
+			id: "1C6992C014F5A9AB"
+			tasks: [{
+				id: "30034873BF20D667"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513FC50D3580A38A"]
+			id: "0ED26467BC509B84"
+			optional: true
+			tasks: [{
+				id: "66241CCF5AC90832"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["513FC50D3580A38A"]
+			id: "6D2C7ABAAF410095"
+			optional: true
+			tasks: [{
+				id: "69C513272EC0EB0A"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["513FC50D3580A38A"]
+			id: "1AD67F7C6A5079B6"
+			optional: true
+			tasks: [{
+				id: "092813FAC5BFCFCF"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C6992C014F5A9AB"]
+			id: "0644BAA07033FF0C"
+			tasks: [{
+				id: "40EFBC92F7C2FF38"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513FC50D3580A38A"]
+			id: "248AA55DA6BBFB8B"
+			tasks: [{
+				count: 3L
+				id: "37EFA12CBD4F80FD"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0644BAA07033FF0C"]
+			id: "28454909FE0491CB"
+			tasks: [{
+				id: "443A16946E18B496"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6706EA7FFEADE46E"]
+			id: "659CE6BCFB0C2FB9"
+			optional: true
+			tasks: [{
+				id: "474C527C4AB643E4"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C6992C014F5A9AB"]
+			id: "7F63724FEA1BBBC7"
+			optional: true
+			tasks: [{
+				id: "3CDD085A3F5D7D81"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C6992C014F5A9AB"]
+			id: "46A0A1B2795A0DA3"
+			optional: true
+			tasks: [{
+				id: "29211C6EB31546EE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C6992C014F5A9AB"]
+			id: "6B1E0A4BC59DBBB5"
+			optional: true
+			tasks: [{
+				id: "18CC8304A07C7BD4"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28454909FE0491CB"]
+			id: "612BAB6998AA18E6"
+			tasks: [{
+				id: "2B5783D916678CE0"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"612BAB6998AA18E6"
+				"6CEDAF73245095EB"
+			]
+			description: ["Enter The Nether Dimension"]
+			icon_scale: 0.6d
+			id: "10D55A3B1B3B559F"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Enter The Nether Dimension"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "07FD8B05596FB0DA"
+				title: "Enter the nether dimension"
+				type: "dimension"
+			}]
+			title: "Forbidden Lands"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["612BAB6998AA18E6"]
+			id: "6CEDAF73245095EB"
+			optional: true
+			tasks: [{
+				id: "5447D7B531B7385D"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C6992C014F5A9AB"]
+			id: "0DA481315330EE38"
+			optional: true
+			tasks: [{
+				id: "3DC49952B0A8A8FE"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0644BAA07033FF0C"]
+			description: ["Craft full set of diamond armor"]
+			icon_scale: 0.9d
+			id: "10792119C2A79CEB"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft full set of diamond armor"
+			tasks: [
+				{
+					id: "348C57CC710251B0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4009E7DB8A9A6C62"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "596810BE60C93264"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D2244CC37825EDB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Swag"
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"248AA55DA6BBFB8B"
+				"0ED26467BC509B84"
+				"7F5D2891BAE00D81"
+			]
+			id: "61F40E8395C02E28"
+			tasks: [{
+				id: "4C2F30496FD7DF30"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61F40E8395C02E28"]
+			id: "56B92825D0BFF13B"
+			optional: true
+			tasks: [{
+				id: "33610905329AAD45"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"659CE6BCFB0C2FB9"
+				"56B92825D0BFF13B"
+			]
+			description: ["Obtain your first andesite alloy"]
+			id: "7DA778E8D74E6604"
+			optional: true
+			subtitle: "Obtain your first andesite alloy"
+			tasks: [{
+				id: "6A73DB9A0552A046"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "The Beggining of Create Mod"
+			x: 12.0d
+			y: -4.0d
+		}
+	]
+	title: "1. &2Overworld"
+}

@@ -1,0 +1,330 @@
+{
+	autofocus_id: "5FDA587AFFB7D64A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_nether"
+	group: "15DF6CFCD42A7935"
+	icon: "minecraft:netherrack"
+	id: "2727E62186E0BA6B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Enter the nether dimension"]
+			icon_scale: 0.9d
+			id: "5FDA587AFFB7D64A"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Enter the nether dimension"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "6FAB36565632E864"
+				title: "Enter the nether dimension"
+				type: "dimension"
+			}]
+			title: "Forbidden Lands"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FDA587AFFB7D64A"]
+			icon: "mcwfences:nether_brick_pillar_wall"
+			id: "4EDD4B982D71C8B1"
+			tasks: [{
+				id: "4FE8F19AA3D05B95"
+				structure: "#betterfortresses:better_fortresses"
+				type: "structure"
+			}]
+			title: "A Terrible Fortress"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FDA587AFFB7D64A"]
+			id: "1C734A3327F36426"
+			tasks: [{
+				icon: "mcwbridges:blackstone_bridge_pier"
+				id: "10DA1F6E1BB6929C"
+				structure: "#minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FDA587AFFB7D64A"]
+			id: "5584C9637FF2ADE8"
+			tasks: [{
+				id: "2D7E84A61C8E3790"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5584C9637FF2ADE8"]
+			id: "061E884FA5EB33ED"
+			tasks: [{
+				id: "2291C739115CF07D"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C734A3327F36426"]
+			id: "4F0BBCACA2719917"
+			tasks: [{
+				id: "58B7646E6520F05E"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EDD4B982D71C8B1"]
+			icon: "minecraft:blaze_rod"
+			id: "71B7FC7A6648CF5B"
+			tasks: [{
+				id: "2B66E5C4FE18A315"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"71B7FC7A6648CF5B"
+				"5C88E362774EA1F5"
+			]
+			id: "783D4E7853081FAB"
+			tasks: [{
+				id: "691CA3CAD86FA545"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EC25C40DEC444B2"]
+			description: ["Craft full set of netherite armor"]
+			icon_scale: 0.9d
+			id: "4418E8E1316CDAC8"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft full set of netherite armor"
+			tasks: [
+				{
+					id: "5A6981A9E22148B7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A6C411C0C6E2CA7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4988C1ED4F558C89"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4612E903C8C7CBE5"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terminator"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5FDA587AFFB7D64A"]
+			id: "48B492968DD823DF"
+			optional: true
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "chipped:warped_fungus_bulb"
+				id: "47EF9323CDEA38C5"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48B492968DD823DF"]
+			id: "5C88E362774EA1F5"
+			tasks: [{
+				id: "08241949C64B03C5"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C734A3327F36426"]
+			description: ["Obtain Pigstep music disk"]
+			id: "1D23ADEB5F1A50B1"
+			invisible: true
+			optional: true
+			subtitle: "Obtain Pigstep music disk"
+			tasks: [{
+				id: "19925416466D41D4"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			title: "Pigstep"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["783D4E7853081FAB"]
+			description: ["Locate Stronghold"]
+			icon: "minecraft:mossy_stone_bricks"
+			id: "1819882AB0E91237"
+			subtitle: "Locate Stronghold"
+			tasks: [{
+				id: "66CFA1E084A693E2"
+				structure: "#betterstrongholds:better_strongholds"
+				type: "structure"
+			}]
+			title: "Forgotten By The Times"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1819882AB0E91237"]
+			description: ["Enter The End Dimension"]
+			icon: "minecraft:end_stone"
+			icon_scale: 0.9d
+			id: "5DF29409E777D4FB"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Enter The End Dimension"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "4EC14A51F85C70E7"
+				title: "Enter The End Dimension"
+				type: "dimension"
+			}]
+			title: "The End?"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["761BC8FF8A12974F"]
+			description: ["Obtain 3 Wither Skeleton skulls"]
+			id: "50336F5309BDF3A8"
+			invisible: true
+			subtitle: "Obtain 3 Wither Skeleton skulls"
+			tasks: [{
+				count: 3L
+				id: "477D17015F189FF7"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				title: "Obtain 3 Wither Skeleton skulls"
+				type: "item"
+			}]
+			title: "Evil Preparations"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50336F5309BDF3A8"]
+			description: ["Kill the Wither"]
+			hide: true
+			icon_scale: 1.3d
+			id: "2A42390C9D288567"
+			subtitle: "Kill the Wither"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "60268F3569C757DB"
+				title: "Kill the Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Evil Incarnate"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A42390C9D288567"]
+			icon_scale: 0.9d
+			id: "600E4A8CC410A758"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "79E8634A98D9C693"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EDD4B982D71C8B1"]
+			description: ["Kill 1 Wither Skeleton"]
+			id: "761BC8FF8A12974F"
+			subtitle: "Kill 1 Wither Skeleton"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "4FF6DE66D87E75D1"
+				title: "Kill 1 Wither Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Newbie Demonslayer"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"061E884FA5EB33ED"
+				"4F0BBCACA2719917"
+			]
+			id: "7EC25C40DEC444B2"
+			tasks: [{
+				id: "3C41D8E47B754B30"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+	]
+	title: "2. &4Nether"
+}

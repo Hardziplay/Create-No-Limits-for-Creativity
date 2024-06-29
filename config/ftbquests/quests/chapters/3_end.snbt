@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3_end"
+	group: "15DF6CFCD42A7935"
+	icon: "minecraft:end_stone"
+	id: "1013B3BF1036C6B3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Enter The End Dimension"]
+			icon_scale: 0.9d
+			id: "63986FEF420A5627"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Enter The End Dimension"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "07457B77EEE9DAC1"
+				type: "dimension"
+			}]
+			title: "The End?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63986FEF420A5627"]
+			description: ["Kill the ender dragon"]
+			id: "3D32C54F009895DB"
+			subtitle: "Kill the ender dragon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "41515900182C84F3"
+				title: "Kill the ender dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dragonfighter"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D32C54F009895DB"]
+			id: "57ED53C0C76368CB"
+			tasks: [{
+				biome: "minecraft:end_midlands"
+				icon: "minecraft:end_crystal"
+				id: "520BF8908B12B6C2"
+				type: "biome"
+			}]
+			title: "Perfect Escape"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57ED53C0C76368CB"]
+			description: ["Locate End City"]
+			id: "0476FE4B8339C7E8"
+			subtitle: "Locate End City"
+			tasks: [{
+				icon: "mcwbridges:balustrade_end_stone_bricks_bridge"
+				id: "1260238DA06A35A7"
+				structure: "#minecraft:end_city"
+				title: "Locate End City"
+				type: "structure"
+			}]
+			title: "Lost City"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0476FE4B8339C7E8"]
+			id: "4CE6D694CD201B54"
+			tasks: [{
+				id: "7BA271138D339BEB"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0476FE4B8339C7E8"]
+			id: "7BCFD7B32A5EC8A0"
+			tasks: [{
+				id: "3AE476BD075D74D1"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "20A459DE97E36CA3"
+			tasks: [{
+				id: "6481D2775CDE28AF"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "3. &5End"
+}

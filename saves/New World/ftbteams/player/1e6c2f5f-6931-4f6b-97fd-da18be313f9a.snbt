@@ -1,0 +1,17 @@
+{
+	id: "1e6c2f5f-6931-4f6b-97fd-da18be313f9a"
+	type: "player"
+	player_name: "Hardziplay"
+	ranks: {
+		1e6c2f5f-6931-4f6b-97fd-da18be313f9a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Hardziplay"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFD159"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
