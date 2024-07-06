@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0735F3F2775774B3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basics"
@@ -7,6 +8,771 @@
 	id: "690D7EC1A5268951"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "1. &3Basics"
+	quests: [
+		{
+			description: ["Obtain andesite alloy"]
+			id: "0735F3F2775774B3"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Obtain andesite alloy"
+			tasks: [{
+				id: "1AC0F3EEB9B2962C"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "The Great Start"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0735F3F2775774B3"]
+			id: "7CE5F644936651D7"
+			tasks: [{
+				id: "359610D5A1F7E7C6"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0735F3F2775774B3"]
+			id: "4745DF6443F55843"
+			tasks: [{
+				id: "6AC809D3C2963799"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7CE5F644936651D7"
+				"4745DF6443F55843"
+			]
+			id: "5DB297D6A8CFE0AE"
+			tasks: [{
+				id: "73746ECB4686227B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DB297D6A8CFE0AE"]
+			id: "4074E9AAF0381AA0"
+			tasks: [{
+				id: "1BF29BCD9DF0ACEA"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4745DF6443F55843"]
+			id: "4B4CF65EF620A838"
+			tasks: [{
+				id: "45786B449E10EF9E"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4B4CF65EF620A838"
+				"4C5E90EF482F4628"
+			]
+			id: "3432B1AC7E6007B4"
+			tasks: [{
+				id: "3EFB4372C7E7E31A"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4745DF6443F55843"]
+			id: "07C13DD8DD8CE79A"
+			tasks: [{
+				id: "5C8CAFE3C170E11C"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07C13DD8DD8CE79A"]
+			id: "179112B728BC30B1"
+			optional: true
+			tasks: [{
+				id: "20D27F659D98252E"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["07C13DD8DD8CE79A"]
+			id: "0D98A62D8800D05B"
+			optional: true
+			tasks: [{
+				id: "790343D07E26C55D"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4074E9AAF0381AA0"]
+			id: "310FB8A6D9944280"
+			tasks: [{
+				id: "3287FF50772DC9C4"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["310FB8A6D9944280"]
+			id: "1A4307F9A188AA0F"
+			tasks: [{
+				id: "482BE5B37E86D6BA"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4074E9AAF0381AA0"]
+			id: "3E4B13609F3B803A"
+			tasks: [{
+				id: "1D122329FDC0C5D0"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E4B13609F3B803A"]
+			id: "00AE4FDCB5117EE3"
+			tasks: [{
+				id: "1B86D17C6E525FAD"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"00AE4FDCB5117EE3"
+				"3E4B13609F3B803A"
+				"1A4307F9A188AA0F"
+				"5FD9CF5D9D53CB87"
+				"0D83FF165A7C1618"
+			]
+			id: "4922B82ABEB2D15A"
+			tasks: [{
+				id: "0FBA2BDABF6038F6"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "0D83FF165A7C1618"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2F98FC7A693D5C4B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "5FD9CF5D9D53CB87"
+			tasks: [{
+				id: "3F83473150F3FA5D"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4922B82ABEB2D15A"
+				"07C13DD8DD8CE79A"
+			]
+			id: "5E999AA1FC15D9D6"
+			optional: true
+			tasks: [{
+				id: "1A91D4390A089D8B"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4745DF6443F55843"]
+			id: "2BC1572CA4595DE5"
+			tasks: [{
+				id: "5E3013A29D89A792"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4745DF6443F55843"]
+			id: "18993671A7D914FB"
+			tasks: [{
+				id: "6EEF3AAFAE41D65E"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2BC1572CA4595DE5"
+				"18993671A7D914FB"
+			]
+			description: ["Connect a large cogwheel to a small cogwheel to speed up your mechanism"]
+			id: "1B03193BEC122576"
+			optional: true
+			subtitle: "Connect a large cogwheel to a small cogwheel to speed up your mechanism"
+			tasks: [{
+				advancement: "create:shifting_gears"
+				criterion: ""
+				id: "170435925C9768DB"
+				title: "Connect large cogwheel to a small cogwheel to speed up your mechanism"
+				type: "advancement"
+			}]
+			title: "Shifting Gears"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DB297D6A8CFE0AE"]
+			id: "51A665CC9AE73FD2"
+			tasks: [{
+				id: "63DBA3300965036C"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51A665CC9AE73FD2"]
+			id: "4AD8A983B11A677A"
+			tasks: [{
+				id: "45C76C3F80C4EA76"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51A665CC9AE73FD2"]
+			id: "09CCFF3C8E543A8A"
+			tasks: [{
+				id: "46992A95539652D2"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46E5540C1425FAD0"]
+			id: "49C92D1E8F2E8CEC"
+			optional: true
+			tasks: [{
+				id: "28454526B2E75A48"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "146FCF969C6056EA"
+			tasks: [{
+				id: "62ACA83854F5222F"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CE5F644936651D7"]
+			id: "1216E7067D1A2E23"
+			tasks: [{
+				id: "2402B0BF32825FD7"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CE5F644936651D7"]
+			id: "19D944B259403EF1"
+			tasks: [{
+				id: "149689C3C0560661"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"146FCF969C6056EA"
+				"239B3345F1442947"
+			]
+			id: "46E5540C1425FAD0"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7BC606E704A3B8DE"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46E5540C1425FAD0"]
+			id: "1E2848AEC04B22C1"
+			tasks: [{
+				id: "3CA1B9BEBA29D0CB"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7CE5F644936651D7"]
+			id: "6AE484D10E093440"
+			tasks: [{
+				id: "45A8A225F2DB5BC8"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CE5F644936651D7"]
+			id: "1EEC572DFF77962C"
+			tasks: [{
+				id: "6337CAC3C7B0145D"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E2848AEC04B22C1"]
+			id: "03850CF115FD0029"
+			tasks: [{
+				id: "6DB7DAEDA0A158EE"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7CE5F644936651D7"]
+			id: "6D362537DEE7FFFB"
+			tasks: [{
+				id: "35AC3E853A04E02F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "239B3345F1442947"
+			tasks: [{
+				id: "634474658616B6BB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6D362537DEE7FFFB"]
+			id: "5A853707C81692C3"
+			tasks: [{
+				id: "346724594A234531"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D83FF165A7C1618"]
+			id: "11CE37EB6975AB0D"
+			tasks: [{
+				id: "19EFBA014739F4E8"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11CE37EB6975AB0D"]
+			id: "67CCD1F7C8A93512"
+			optional: true
+			tasks: [{
+				id: "1221E856D1F42898"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29B685BA7286A771"]
+			id: "48A61510FB798673"
+			tasks: [{
+				id: "7464A160CBA93F50"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["11CE37EB6975AB0D"]
+			id: "1477E058A918E999"
+			tasks: [{
+				id: "6AD32BFBA2BEF39A"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "29B685BA7286A771"
+			tasks: [{
+				id: "7273F02FC8080FDF"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "6350F277A97559B9"
+			optional: true
+			tasks: [{
+				id: "247CEEB91AA12AD0"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"67CCD1F7C8A93512"
+				"1477E058A918E999"
+				"29B685BA7286A771"
+			]
+			id: "4E7AD9E961E6783F"
+			optional: true
+			tasks: [{
+				id: "72C161478B8F4EEC"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "7D2565EDA6F17012"
+			optional: true
+			tasks: [{
+				id: "04072D12BFC7F761"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "5FB7B6771D2B5ECA"
+			optional: true
+			tasks: [{
+				id: "05AB4C66BF977592"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "22C2C7E162BF0265"
+			optional: true
+			tasks: [{
+				id: "2D29F2D9AA0FA40F"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1477E058A918E999"]
+			id: "10F9DB9F7454E669"
+			optional: true
+			tasks: [{
+				id: "18BB73B2FFEB3B2D"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4745DF6443F55843"]
+			id: "4DEA8394286FCD6D"
+			tasks: [{
+				id: "5B2041FA47046D88"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DEA8394286FCD6D"]
+			id: "512B2326E79DF561"
+			tasks: [{
+				id: "43BE35A3487B61A0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"03850CF115FD0029"
+				"48A61510FB798673"
+			]
+			description: ["Obtain a sturdy sheet"]
+			id: "10492F9D3CCACACB"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Obtain a sturdy sheet"
+			tasks: [{
+				id: "1DEE39FAE23E53E6"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Sturdy As Hell"
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"7CE5F644936651D7"
+				"2BC1572CA4595DE5"
+			]
+			id: "11398AB155B92069"
+			tasks: [
+				{
+					id: "315BBBBF3B7EFF66"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "566B9DB39EC14C38"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["46E5540C1425FAD0"]
+			id: "778B507EF82A63CF"
+			tasks: [{
+				id: "4A5E7CE20D1B48DC"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1216E7067D1A2E23"]
+			id: "319033CAC95601D9"
+			optional: true
+			tasks: [{
+				id: "7BA4D8134DEB2879"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1216E7067D1A2E23"]
+			id: "2DAA6AF3077287B7"
+			optional: true
+			tasks: [{
+				id: "7366E1C2E528771A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1216E7067D1A2E23"]
+			id: "34418C355456983F"
+			optional: true
+			tasks: [{
+				id: "1A3E12FD9F6915DF"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1216E7067D1A2E23"]
+			id: "7A11099022D1C342"
+			optional: true
+			tasks: [{
+				id: "4FCE670FFB94D225"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1216E7067D1A2E23"]
+			id: "1C9D99B7C89C5C2B"
+			optional: true
+			tasks: [{
+				id: "7D3B284BB86E1617"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10492F9D3CCACACB"]
+			id: "5135F05D648A2A84"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0FFB16A5712F089A"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4B4CF65EF620A838"]
+			id: "4C5E90EF482F4628"
+			tasks: [{
+				id: "7EB4A85D81C96A61"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4922B82ABEB2D15A"
+				"07C13DD8DD8CE79A"
+			]
+			id: "357BBA0691800487"
+			tasks: [{
+				id: "392632F43A62A579"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["07C13DD8DD8CE79A"]
+			id: "43E0FAA8D9737E15"
+			tasks: [{
+				id: "5AEF16ABCEA8D4C5"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+	]
+	title: "&3Basics"
 }

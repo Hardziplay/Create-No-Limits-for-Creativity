@@ -8,7 +8,7 @@
 	properties: {
 		"ftbteams:display_name": "Hardziplay"
 		"ftbteams:description": ""
-		"ftbteams:color": "#FFD159"
+		"ftbteams:color": "#597EFF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 	}

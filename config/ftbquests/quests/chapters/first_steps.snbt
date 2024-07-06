@@ -515,10 +515,10 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			title: "The Beggining of Create Mod"
+			title: "The Beggining of the Create Mod"
 			x: 12.0d
 			y: -4.0d
 		}
 	]
-	title: "1. &2Overworld"
+	title: "&2Overworld"
 }

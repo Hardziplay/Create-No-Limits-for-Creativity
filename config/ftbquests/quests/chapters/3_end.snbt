@@ -1,4 +1,5 @@
 {
+	autofocus_id: "63986FEF420A5627"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3_end"
@@ -43,20 +44,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3D32C54F009895DB"]
-			id: "57ED53C0C76368CB"
-			tasks: [{
-				biome: "minecraft:end_midlands"
-				icon: "minecraft:end_crystal"
-				id: "520BF8908B12B6C2"
-				type: "biome"
-			}]
-			title: "Perfect Escape"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["57ED53C0C76368CB"]
+			dependencies: ["68C49DA29C2C1C7A"]
 			description: ["Locate End City"]
 			id: "0476FE4B8339C7E8"
 			subtitle: "Locate End City"
@@ -100,7 +88,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["68C49DA29C2C1C7A"]
+			description: ["Obtain chorus fruit"]
 			id: "20A459DE97E36CA3"
+			subtitle: "Obtain chorus fruit"
 			tasks: [{
 				id: "6481D2775CDE28AF"
 				item: "minecraft:chorus_fruit"
@@ -109,6 +100,22 @@
 			x: 4.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["3D32C54F009895DB"]
+			description: ["Escape through the end gateway"]
+			id: "68C49DA29C2C1C7A"
+			subtitle: "Escape through the end gateway"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "7F5F0E426CB05F42"
+				title: "Escape through the end gateway"
+				type: "advancement"
+			}]
+			title: "Perfect escape"
+			x: 4.0d
+			y: 0.0d
+		}
 	]
-	title: "3. &5End"
+	title: "&5End"
 }

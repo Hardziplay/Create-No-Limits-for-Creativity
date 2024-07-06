@@ -1,0 +1,255 @@
+{
+	autofocus_id: "283FDB5639B01979"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aircrafts"
+	group: "737220849E0C3778"
+	icon: "man_of_many_planes:economy_plane"
+	id: "49610D79BB96598F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.9d
+			id: "283FDB5639B01979"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "5803D8A15BA7035E"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["283FDB5639B01979"]
+			id: "7B4CB0FDA9173DD8"
+			tasks: [{
+				id: "0A7487602DC679A5"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B4CB0FDA9173DD8"]
+			id: "255E8A9A50522244"
+			tasks: [{
+				id: "2373FB36696C6415"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B4CB0FDA9173DD8"]
+			id: "4F625A9DCE36D9F7"
+			tasks: [{
+				id: "0A876B29684FAA6B"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["356416FBD5651FCC"]
+			id: "7C3BBB63BA415020"
+			tasks: [{
+				id: "68E2CBBAC691DEBF"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F625A9DCE36D9F7"]
+			id: "19AD662D0EBFDBC3"
+			tasks: [{
+				id: "6C1D43A568CF1F70"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19AD662D0EBFDBC3"]
+			id: "356416FBD5651FCC"
+			tasks: [{
+				id: "56DE6830360C3AFE"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3BBB63BA415020"]
+			id: "4B8EB53E7170A79A"
+			tasks: [{
+				id: "796BB765C915488F"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16D02CBF4FA9B315"]
+			id: "06CEC44626D95673"
+			tasks: [{
+				id: "4734FA5C42F05E1A"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06CEC44626D95673"]
+			id: "1D69C01664F942E1"
+			tasks: [{
+				id: "5DEA67053E6ACCDE"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D69C01664F942E1"]
+			id: "3CDA11250F6A9343"
+			tasks: [{
+				id: "167BD64D9574B969"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06CEC44626D95673"]
+			id: "375350F864F12D78"
+			tasks: [{
+				id: "137A82DAB8E4A1ED"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06CEC44626D95673"]
+			id: "112E94FE5B1D9E4A"
+			tasks: [{
+				id: "723B7D1ED7EBF22D"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["112E94FE5B1D9E4A"]
+			id: "19564DE50324C67E"
+			tasks: [{
+				id: "43377F89046BE63A"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19564DE50324C67E"]
+			id: "0FB7C55948B638CA"
+			tasks: [{
+				id: "5051BFEC7FA55D3B"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["112E94FE5B1D9E4A"]
+			id: "2D6925F2A810AB4A"
+			tasks: [{
+				id: "76F9DA707FF68BBB"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C3BBB63BA415020"]
+			id: "16D02CBF4FA9B315"
+			tasks: [{
+				id: "20AE0F062361B0FF"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D6925F2A810AB4A"]
+			icon_scale: 0.7d
+			id: "28933623A8204CCF"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "664211C5EDC52DA7"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			description: ["Different aircrafts may have different &6&lparameters&r, so you can &6&limprove&r these parameters using &l&6upgrades."]
+			id: "42FE21126B38AE92"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Read this"
+			tasks: [{
+				id: "55C58C114CD1D153"
+				title: "Aircraft Upgrades"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "4B2C0FBD150D2527"
+			tasks: [{
+				id: "669F28B09D986D91"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Some aircrafts also may have slots for &6&lweapons&r"]
+			id: "5DB511314C22EA16"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Read this"
+			tasks: [{
+				id: "33D792CACA725956"
+				title: "Aircraft Weapons"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.75d
+		}
+	]
+	title: "&3Aircrafts"
+}

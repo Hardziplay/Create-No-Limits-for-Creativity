@@ -247,8 +247,8 @@
 		{
 			dependencies: ["761BC8FF8A12974F"]
 			description: ["Obtain 3 Wither Skeleton skulls"]
+			hide: true
 			id: "50336F5309BDF3A8"
-			invisible: true
 			subtitle: "Obtain 3 Wither Skeleton skulls"
 			tasks: [{
 				count: 3L
@@ -264,7 +264,6 @@
 		{
 			dependencies: ["50336F5309BDF3A8"]
 			description: ["Kill the Wither"]
-			hide: true
 			icon_scale: 1.3d
 			id: "2A42390C9D288567"
 			subtitle: "Kill the Wither"
@@ -297,7 +296,9 @@
 		{
 			dependencies: ["4EDD4B982D71C8B1"]
 			description: ["Kill 1 Wither Skeleton"]
+			hide: true
 			id: "761BC8FF8A12974F"
+			invisible: true
 			subtitle: "Kill 1 Wither Skeleton"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
@@ -326,5 +327,5 @@
 			y: -6.0d
 		}
 	]
-	title: "2. &4Nether"
+	title: "&4Nether"
 }

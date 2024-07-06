@@ -1,0 +1,98 @@
+{
+	autofocus_id: "58C340202C71EB37"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "737220849E0C3778"
+	icon: "railways:handcar"
+	id: "78D15EF33C7B27DE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "58C340202C71EB37"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "376166C069F8C51B"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33D0629325DA96B7"]
+			id: "6E1E594CEECC2B01"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "24E027FA5DC74EBF"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E1E594CEECC2B01"]
+			id: "1F11F9F12C32FF43"
+			tasks: [{
+				id: "2958EE7C4545CA83"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E1E594CEECC2B01"]
+			id: "5C890576F336176C"
+			tasks: [{
+				id: "15C037680D780016"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58C340202C71EB37"]
+			id: "33D0629325DA96B7"
+			tasks: [{
+				id: "0A97F07B86D958B7"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1F11F9F12C32FF43"
+				"5C890576F336176C"
+			]
+			description: ["Assemble your first train"]
+			id: "676DE5558A45E6C9"
+			subtitle: "Assemble your first train"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				icon: "create:track"
+				id: "10FAD25C0670B98F"
+				title: "Assemble your first train"
+				type: "advancement"
+			}]
+			title: "Wherever the Train Goes"
+			x: 4.5d
+			y: -4.0d
+		}
+	]
+	title: "&3Trains"
+}
