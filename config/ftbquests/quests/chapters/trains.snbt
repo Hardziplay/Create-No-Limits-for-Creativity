@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5135F05D648A2A84"]
 			id: "58C340202C71EB37"
 			shape: "diamond"
 			size: 2.0d
@@ -92,6 +93,41 @@
 			title: "Wherever the Train Goes"
 			x: 4.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["676DE5558A45E6C9"]
+			description: ["Place an inventory with any fuel on your train to speed it up"]
+			id: "1450AAF675A14446"
+			subtitle: "Place an inventory with any fuel on your train"
+			tasks: [{
+				id: "727DEE90C0D1F490"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			title: "Speeding Up the Train"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1450AAF675A14446"]
+			description: ["Place a fluid tank with any fuel on your train to speed it up"]
+			id: "6D05F01CA53F0EE2"
+			subtitle: "Place a fluid tank with any fuel on your train to speed it up"
+			tasks: [
+				{
+					id: "2A0BDE2FEA2E6FFD"
+					item: "railways:fuel_tank"
+					type: "item"
+				}
+				{
+					id: "5AC397F9D5B6C890"
+					item: "railways:portable_fuel_interface"
+					type: "item"
+				}
+			]
+			title: "Speeding Up the Train II"
+			x: 8.5d
+			y: -3.0d
 		}
 	]
 	title: "&3Trains"

@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6D2C7ABAAF410095"]
 			icon_scale: 0.9d
 			id: "283FDB5639B01979"
 			shape: "diamond"
@@ -56,7 +57,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["356416FBD5651FCC"]
+			dependencies: [
+				"356416FBD5651FCC"
+				"5A853707C81692C3"
+			]
 			id: "7C3BBB63BA415020"
 			tasks: [{
 				id: "68E2CBBAC691DEBF"
@@ -227,6 +231,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["42FE21126B38AE92"]
 			id: "4B2C0FBD150D2527"
 			tasks: [{
 				id: "669F28B09D986D91"
@@ -247,9 +252,141 @@
 				title: "Aircraft Weapons"
 				type: "checkmark"
 			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "33A92F55BB958F39"
+			tasks: [{
+				id: "50BA0214780AF746"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "1C3F652F6DE4A67F"
+			tasks: [{
+				id: "30E4AAAE66D31E84"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "6108C00D8355FC89"
+			tasks: [{
+				id: "0059324510429C81"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "443ECB620EB3ECE8"
+			tasks: [{
+				id: "030D06ECAB9BB1BD"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "4175933F18DCBA14"
+			tasks: [{
+				id: "52D43DB99B0A083A"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "016E0AD7EE72D9D2"
+			tasks: [{
+				id: "1CD6AC23EA585912"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "148861323B30381F"
+			tasks: [{
+				id: "0E78BC8E6E25CDF1"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
 			x: -2.0d
-			y: 6.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42FE21126B38AE92"]
+			id: "390B1A88C973E0F3"
+			tasks: [{
+				id: "52690EACD7731088"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5DB511314C22EA16"]
+			id: "32F17192E72DDB81"
+			tasks: [{
+				id: "11EC4A88A430BDEA"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DB511314C22EA16"]
+			id: "0F3D406F41AA5E73"
+			tasks: [{
+				id: "38F08319F6CC1EB7"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5DB511314C22EA16"]
+			id: "5744F72EA39D1013"
+			tasks: [{
+				id: "6D0A07CF83988A08"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5DB511314C22EA16"]
+			id: "3CABB0D2E8E76486"
+			tasks: [{
+				id: "6562F43F95AAE5E8"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 	]
-	title: "&3Aircrafts"
+	title: "Aircrafts"
 }

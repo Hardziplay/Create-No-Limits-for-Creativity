@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7DA778E8D74E6604"]
 			description: ["Obtain andesite alloy"]
 			id: "0735F3F2775774B3"
 			shape: "diamond"
@@ -193,6 +194,8 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["6D2C7ABAAF410095"]
+			hide_dependency_lines: true
 			id: "0D83FF165A7C1618"
 			shape: "diamond"
 			size: 2.0d
@@ -205,6 +208,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["0DA481315330EE38"]
 			id: "5FD9CF5D9D53CB87"
 			tasks: [{
 				id: "3F83473150F3FA5D"
@@ -427,6 +431,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["5A853707C81692C3"]
+			hide_dependency_lines: true
 			id: "239B3345F1442947"
 			tasks: [{
 				id: "634474658616B6BB"

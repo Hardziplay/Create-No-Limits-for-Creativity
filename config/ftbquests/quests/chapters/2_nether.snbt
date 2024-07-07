@@ -326,6 +326,23 @@
 			x: 1.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["5FDA587AFFB7D64A"]
+			description: ["Visit every nether biome"]
+			id: "1B84633609A756D4"
+			optional: true
+			subtitle: "Visit every nether biome"
+			tasks: [{
+				advancement: "betternether:all_the_biomes"
+				criterion: ""
+				id: "4EBF24A3A03FA1D2"
+				title: "Visit every nether biome"
+				type: "advancement"
+			}]
+			title: "Nether Traveller"
+			x: -2.0d
+			y: 0.0d
+		}
 	]
 	title: "&4Nether"
 }

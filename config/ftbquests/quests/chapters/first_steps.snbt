@@ -244,7 +244,6 @@
 		{
 			dependencies: ["513FC50D3580A38A"]
 			id: "6D2C7ABAAF410095"
-			optional: true
 			tasks: [{
 				id: "69C513272EC0EB0A"
 				item: "minecraft:raw_copper"
@@ -308,7 +307,6 @@
 		{
 			dependencies: ["6706EA7FFEADE46E"]
 			id: "659CE6BCFB0C2FB9"
-			optional: true
 			tasks: [{
 				id: "474C527C4AB643E4"
 				item: "minecraft:andesite"
@@ -413,8 +411,8 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.0d
+			x: 16.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0644BAA07033FF0C"]
@@ -505,10 +503,11 @@
 			dependencies: [
 				"659CE6BCFB0C2FB9"
 				"56B92825D0BFF13B"
+				"0AAF6FDB4E9FFBC7"
 			]
+			dependency_requirement: "all_started"
 			description: ["Obtain your first andesite alloy"]
 			id: "7DA778E8D74E6604"
-			optional: true
 			subtitle: "Obtain your first andesite alloy"
 			tasks: [{
 				id: "6A73DB9A0552A046"
@@ -518,6 +517,18 @@
 			title: "The Beggining of the Create Mod"
 			x: 12.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["0DA481315330EE38"]
+			id: "0AAF6FDB4E9FFBC7"
+			optional: true
+			tasks: [{
+				id: "25C46E894751C5C7"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
 		}
 	]
 	title: "&2Overworld"
