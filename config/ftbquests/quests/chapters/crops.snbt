@@ -1,0 +1,478 @@
+{
+	autofocus_id: "51941671C41304BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crops"
+	group: "088C0FB7AE070236"
+	icon: "farmersdelight:onion"
+	id: "216156AC4317FE6E"
+	order_index: 0
+	quest_links: [{
+		id: "56178B3366665014"
+		linked_quest: "0FD5144AD5F5265A"
+		shape: "rsquare"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "352074EADF9C7431"
+			tasks: [{
+				id: "165E0FC1DB896960"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "3BD32854E177626E"
+			tasks: [{
+				id: "785881814DF2183B"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "10109159781E16D2"
+			tasks: [{
+				id: "6B3364C608D4C99A"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "7F0888A8AC61C824"
+			tasks: [{
+				id: "583F4ACDD29BDC65"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "5452B4AB637916A3"
+			tasks: [{
+				id: "0D498BFD14434C34"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "5A905A25BB15DC64"
+			tasks: [{
+				id: "6728563194E78458"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "753DB60CBA20C3B2"
+			tasks: [{
+				id: "179A127FA7889A84"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "5D45472D66A525A2"
+			tasks: [{
+				id: "3CE1B550C1F47449"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D45472D66A525A2"]
+			id: "29EE151D69CACA5C"
+			tasks: [{
+				id: "1FFBC2ACF16612DD"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "71721B18592C6F9E"
+			tasks: [{
+				id: "482E1A72099E28FA"
+				item: "corn_delight:corn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "256259F18F7A319D"
+			tasks: [{
+				count: 64L
+				id: "29003A60C7B61A69"
+				item: { Count: 64, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "20BCF334C575715C"
+			tasks: [{
+				count: 64L
+				id: "29D980170AD3B459"
+				item: { Count: 64, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20BCF334C575715C"]
+			id: "31A7528D57944C40"
+			tasks: [{
+				count: 64L
+				id: "0D81655BB764EEB8"
+				item: { Count: 64, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0FD5144AD5F5265A"]
+			id: "6D570964E8AC78E4"
+			tasks: [{
+				count: 64L
+				id: "67A3793E372963C5"
+				item: { Count: 64, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["101308D4BF9948E2"]
+			icon_scale: 0.7d
+			id: "0AFDB5F91362F5FD"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7B05577796F732BB"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Meat"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "2F62B1B01809DC71"
+			tasks: [{
+				id: "6CF501D08C7B54D8"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "627A22A4B6BDEA29"
+			tasks: [{
+				id: "3A59C2AEF19BA04F"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "79F442B37C0BF921"
+			tasks: [{
+				id: "45FEB8E33C489CD1"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "50A2932F4F92A4E9"
+			tasks: [{
+				id: "1F6CA3D679F22815"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "17CAF2935241988D"
+			tasks: [{
+				id: "0E86F814DB42F686"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "27DE8AFBA8BFE2A5"
+			tasks: [{
+				id: "770C61881BD133EF"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "563DF5A21641B6A1"
+			tasks: [{
+				id: "18DEB7B9F87365AE"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "1DF8FB1A3C11F0CF"
+			tasks: [{
+				id: "74F6124455149931"
+				item: "naturalist:duck"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "72FB3F702E582051"
+			tasks: [{
+				id: "316F9C48333C9156"
+				item: "aquaculture:fish_fillet_raw"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "7F9B2E28015028A0"
+			tasks: [{
+				id: "506175D7A9D55725"
+				item: "alexscaves:trilocaris_tail"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "570FB78E03ACCD11"
+			tasks: [{
+				id: "71EFD6D7BA245A5C"
+				item: "naturalist:venison"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AFDB5F91362F5FD"]
+			id: "22CF19C1EF7461A0"
+			tasks: [{
+				id: "2B79AB6A5CB5654E"
+				item: "naturalist:lizard_tail"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "506F9FFF7535757E"
+			tasks: [{
+				id: "59FE6A56E8363E0B"
+				item: "naturalist:catfish"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "533DD390A085C363"
+			tasks: [{
+				id: "18E90E7EF733A70B"
+				item: "naturalist:bass"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "3E0225E9DEC52EC6"
+			tasks: [{
+				id: "0D20049E29412028"
+				item: "miners_delight:squid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "69FC3B2E298620F8"
+			tasks: [{
+				id: "29554FADDDDC4F50"
+				item: "miners_delight:glow_squid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "60DE8861CD3F25FD"
+			tasks: [{
+				id: "1FFBDDBA8650AA50"
+				item: "miners_delight:tentacles"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "2CF6303E452A7A7A"
+			tasks: [{
+				id: "3B18F7DC122E8809"
+				item: "miners_delight:arthropod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["263B864E7B2D0556"]
+			icon_scale: 0.7d
+			id: "30D9476EF275F05D"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1E56765486B8B663"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Seafood"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "2A5382CD6EC214F1"
+			tasks: [{
+				count: 64L
+				id: "14E471DC44D4A8AE"
+				item: { Count: 64, id: "alexscaves:tripodfish" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "0BA931E13B2D94FB"
+			tasks: [{
+				count: 64L
+				id: "2F42D03CE167C194"
+				item: { Count: 64, id: "alexscaves:lanternfish" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "00EEBBB5475F5930"
+			tasks: [{
+				count: 64L
+				id: "117184E1CE2DA2E0"
+				item: { Count: 64, id: "alexscaves:mussel" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "31A325512A4B7042"
+			tasks: [{
+				id: "72DE18E20022268B"
+				item: "alexscaves:radgill"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30D9476EF275F05D"]
+			id: "4440F7E659E28306"
+			tasks: [{
+				count: 64L
+				id: "37B95B2DCEBA472F"
+				item: { Count: 64, id: "aquaculturedelight:small_turtle_meat" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+	]
+	title: "Ingredients"
+}

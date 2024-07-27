@@ -171,14 +171,18 @@
 		}
 		{
 			dependencies: ["5FDA587AFFB7D64A"]
+			description: ["Visit warped forest"]
 			id: "48B492968DD823DF"
 			optional: true
+			subtitle: "Visit warped forest"
 			tasks: [{
 				biome: "minecraft:warped_forest"
 				icon: "chipped:warped_fungus_bulb"
 				id: "47EF9323CDEA38C5"
+				title: "Visit warped forest"
 				type: "biome"
 			}]
+			title: "Warped Forest"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -281,15 +285,18 @@
 		}
 		{
 			dependencies: ["2A42390C9D288567"]
+			description: ["Obtain beacon"]
 			icon_scale: 0.9d
 			id: "600E4A8CC410A758"
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Obtain beacon"
 			tasks: [{
 				id: "79E8634A98D9C693"
 				item: "minecraft:beacon"
 				type: "item"
 			}]
+			title: "Skybridge"
 			x: 10.0d
 			y: -2.0d
 		}

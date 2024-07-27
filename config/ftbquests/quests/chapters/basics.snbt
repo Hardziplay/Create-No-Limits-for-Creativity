@@ -184,26 +184,31 @@
 				"5FD9CF5D9D53CB87"
 				"0D83FF165A7C1618"
 			]
+			description: ["Obtain brass"]
 			id: "4922B82ABEB2D15A"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Obtain brass"
 			tasks: [{
 				id: "0FBA2BDABF6038F6"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
+			title: "Brass age"
 			x: 8.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6D2C7ABAAF410095"]
-			hide_dependency_lines: true
 			id: "0D83FF165A7C1618"
-			shape: "diamond"
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "2F98FC7A693D5C4B"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
+			title: "Copper Age"
 			x: 10.5d
 			y: -2.5d
 		}
@@ -362,7 +367,7 @@
 		{
 			dependencies: [
 				"146FCF969C6056EA"
-				"239B3345F1442947"
+				"29D5DF646E1493FD"
 			]
 			id: "46E5540C1425FAD0"
 			shape: "rsquare"
@@ -429,18 +434,6 @@
 			}]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5A853707C81692C3"]
-			hide_dependency_lines: true
-			id: "239B3345F1442947"
-			tasks: [{
-				id: "634474658616B6BB"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -6.5d
 		}
 		{
 			dependencies: ["6D362537DEE7FFFB"]
@@ -778,6 +771,18 @@
 			}]
 			x: 4.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["5A853707C81692C3"]
+			hide_dependency_lines: true
+			id: "29D5DF646E1493FD"
+			tasks: [{
+				id: "4941A86D5914030D"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
 		}
 	]
 	title: "&3Basics"

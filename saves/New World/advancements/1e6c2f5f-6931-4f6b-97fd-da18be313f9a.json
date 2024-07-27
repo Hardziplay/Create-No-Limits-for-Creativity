@@ -13,6 +13,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:stony_shore": "2024-07-09 13:12:58 +0300",
+      "minecraft:cold_ocean": "2024-07-09 14:16:08 +0300",
       "minecraft:forest": "2024-07-07 13:19:59 +0300",
       "minecraft:plains": "2024-07-07 13:07:16 +0300"
     },
@@ -618,6 +620,12 @@
   "betternether:city": {
     "criteria": {
       "ncity": "2024-07-07 13:16:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2024-07-07 13:19:58 +0300"
     },
     "done": true
   },
@@ -1246,12 +1254,6 @@
     },
     "done": true
   },
-  "minecraft:nether/fast_travel": {
-    "criteria": {
-      "travelled": "2024-07-07 13:19:58 +0300"
-    },
-    "done": true
-  },
   "create_enchantment_industry:copiable_masterpiece": {
     "criteria": {
       "builtin": "2024-07-07 13:48:29 +0300"
@@ -1261,6 +1263,705 @@
   "create:precision_mechanism": {
     "criteria": {
       "0": "2024-07-07 13:48:29 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_coalburner": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_diesel": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/nethers_stove": {
+    "criteria": {
+      "has_campfire": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_woodburner": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_oilburner": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_long": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_streamlined": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_caboosestyle": {
+    "criteria": {
+      "has_item": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2024-07-09 13:43:54 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2024-07-09 13:43:56 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2024-07-09 13:43:56 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_skillet": {
+    "criteria": {
+      "skillet": "2024-07-09 13:44:02 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "cabbage_seeds": "2024-07-09 14:11:16 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:11:25 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:11:25 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2024-07-09 14:11:25 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:11:25 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2024-07-09 14:11:25 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "cabbage": "2024-07-09 14:14:01 +0300",
+      "onion": "2024-07-09 14:14:01 +0300",
+      "tomato": "2024-07-09 14:14:03 +0300",
+      "rice": "2024-07-09 14:11:28 +0300"
+    },
+    "done": false
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2024-07-09 14:11:28 +0300"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/azalea_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-07-09 14:11:30 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2024-07-09 14:12:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-07-09 14:12:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2024-07-09 14:12:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-09 14:13:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-09 14:13:57 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:18:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-07-09 14:18:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-07-09 14:18:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-07-09 14:18:44 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:18:44 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:28:45 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:28:45 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:28:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-07-09 14:28:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-07-09 14:28:47 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-07-09 14:28:47 +0300"
+    },
+    "done": true
+  },
+  "ecologics:recipes/food/beetroot_soup_from_coconut_husk": {
+    "criteria": {
+      "has_beetroot": "2024-07-09 14:28:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-07-09 14:28:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-07-09 14:29:06 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2024-07-09 14:29:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-07-09 14:29:06 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:29:06 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/grilled_corn_from_campfire_cooking": {
+    "criteria": {
+      "has_corn_delight:corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/grilled_corn": {
+    "criteria": {
+      "has_corn_delight:corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/corn_from_crate": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/corn_seeds": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/corn_seeds_from_bag": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/tortilla_raw": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/corn_kernel_bag": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/grilled_corn_from_smoking": {
+    "criteria": {
+      "has_corn_delight:corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:corn": {
+    "criteria": {
+      "item": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/corn_crate": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "corn_delight:recipes/corn_delight/cornbread_batter": {
+    "criteria": {
+      "has_corn": "2024-07-09 14:30:51 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2024-07-09 14:37:23 +0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_sweet_berries": "2024-07-09 14:37:23 +0300"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/berry_jam_jar": {
+    "criteria": {
+      "has_berry_jam_jar": "2024-07-09 14:37:23 +0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_sweet_berries": "2024-07-09 14:37:23 +0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/glow_goop": {
+    "criteria": {
+      "has_glow_berries": "2024-07-09 14:37:24 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-09 14:37:24 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2024-07-09 14:37:26 +0300"
+    },
+    "done": true
+  },
+  "vinery:main/get_apple": {
+    "criteria": {
+      "apple": "2024-07-09 14:37:26 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "vinery:recipes/basket": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/daub": {
+    "criteria": {
+      "supplementaries:straw": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "brewery:recipes/pretzel": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "brewery:recipes/gingerbread": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "vinery:recipes/straw_hat": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/thatch": {
+    "criteria": {
+      "has_planks": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "brewery:recipes/rope": {
+    "criteria": {
+      "has_wheat": "2024-07-09 14:37:38 +0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_venison": {
+    "criteria": {
+      "has_venison": "2024-07-10 10:54:39 +0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_lizard_tail": {
+    "criteria": {
+      "has_lizard_tail": "2024-07-10 10:54:59 +0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_catfish": {
+    "criteria": {
+      "has_catfish": "2024-07-10 10:55:05 +0300"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_bass": {
+    "criteria": {
+      "has_bass": "2024-07-10 10:55:08 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_squid_campfire": {
+    "criteria": {
+      "has_squid": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_squid_smoking": {
+    "criteria": {
+      "has_squid": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/cooking/takoyaki": {
+    "criteria": {
+      "has_squid": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_squid": {
+    "criteria": {
+      "has_squid": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/squid_sandwich": {
+    "criteria": {
+      "has_squid": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/cooking/stuffed_squid": {
+    "criteria": {
+      "has_any_ingredient": "2024-07-10 10:55:31 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_tentacles_campfire": {
+    "criteria": {
+      "has_tentacles": "2024-07-10 10:55:40 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_tentacles_smoking": {
+    "criteria": {
+      "has_tentacles": "2024-07-10 10:55:40 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/baked_tentacles": {
+    "criteria": {
+      "has_tentacles": "2024-07-10 10:55:40 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/insect_sandwich": {
+    "criteria": {
+      "has_arthropod": "2024-07-10 10:55:59 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/insect_wrap": {
+    "criteria": {
+      "has_arthropod": "2024-07-10 10:55:59 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/cooked_arthropod": {
+    "criteria": {
+      "has_arthropod": "2024-07-10 10:55:59 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/food/seasoned_arthropods": {
+    "criteria": {
+      "has_arthropod": "2024-07-10 10:55:59 +0300"
+    },
+    "done": true
+  },
+  "miners_delight:recipes/cooking/insect_stew": {
+    "criteria": {
+      "has_arthropod": "2024-07-10 10:55:59 +0300"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/mussel": {
+    "criteria": {
+      "mussel": "2024-07-10 11:03:39 +0300"
+    },
+    "done": true
+  },
+  "ad_astra:tier_4_rocket": {
+    "criteria": {
+      "has_tier_4_rocket": "2024-07-14 21:58:57 +0300"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/inverted_gearshift_from_conversion": {
+    "criteria": {
+      "has_item": "2024-07-18 12:17:27 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2024-07-18 12:19:18 +0300"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/centrifugal_clutch": {
+    "criteria": {
+      "has_item": "2024-07-18 12:19:18 +0300"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/inverted_clutch_from_conversion": {
+    "criteria": {
+      "has_item": "2024-07-18 12:17:41 +0300"
+    },
+    "done": true
+  },
+  "create_connected:recipes/crafting/kinetics/encased_chain_cogwheel": {
+    "criteria": {
+      "has_item": "2024-07-18 12:13:00 +0300"
     },
     "done": true
   },

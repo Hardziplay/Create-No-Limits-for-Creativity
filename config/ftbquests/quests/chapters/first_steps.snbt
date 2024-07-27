@@ -44,6 +44,7 @@
 			description: ["Craft 1 crafting table"]
 			id: "7AE1004AC9853989"
 			shape: "gear"
+			size: 1.25d
 			subtitle: "Craft 1 crafting table"
 			tasks: [{
 				id: "5852DD462D9D30DC"
@@ -529,6 +530,23 @@
 			}]
 			x: 16.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["7AE1004AC9853989"]
+			id: "263B864E7B2D0556"
+			tasks: [{
+				id: "6FECF4CC21C99E5D"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 	title: "&2Overworld"

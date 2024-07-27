@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: "088C0FB7AE070236"
+	icon: "aquaculture:atlantic_cod"
+	id: "390B6AE822A4AA71"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Aquaculture"
+}

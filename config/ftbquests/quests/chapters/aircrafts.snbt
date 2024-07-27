@@ -6,7 +6,7 @@
 	group: "737220849E0C3778"
 	icon: "man_of_many_planes:economy_plane"
 	id: "49610D79BB96598F"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

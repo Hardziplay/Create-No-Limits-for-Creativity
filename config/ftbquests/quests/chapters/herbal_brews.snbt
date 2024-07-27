@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "herbal_brews"
+	group: "088C0FB7AE070236"
+	icon: "herbalbrews:tea_kettle"
+	id: "1FA24C1DC3452CEA"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Herbal Brews"
+}

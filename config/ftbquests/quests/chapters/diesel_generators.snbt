@@ -1,0 +1,354 @@
+{
+	autofocus_id: "062F1272BC0E0B30"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diesel_generators"
+	group: "737220849E0C3778"
+	icon: "createdieselgenerators:diesel_engine"
+	id: "635F8CFF20F9177B"
+	order_index: 1
+	quest_links: [{
+		id: "062F1272BC0E0B30"
+		linked_quest: "4922B82ABEB2D15A"
+		shape: "diamond"
+		size: 2.0d
+		x: 3.5d
+		y: 1.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "6CEC45F8EE88D61F"
+			tasks: [{
+				id: "72156ED7E3A4E3CB"
+				item: "createdieselgenerators:engine_piston"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "0FFF511E6C3BCB64"
+			tasks: [{
+				id: "67CF4B3393547E99"
+				item: "create:brass_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6CEC45F8EE88D61F"
+				"0FFF511E6C3BCB64"
+			]
+			id: "0E0BBAD6DC54E19F"
+			tasks: [{
+				id: "46FD6B6EEC4933C0"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E0BBAD6DC54E19F"]
+			id: "18625EF2ABB868DE"
+			optional: true
+			tasks: [{
+				id: "56DB9C39FA355EE6"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0FFF511E6C3BCB64"
+				"1477E058A918E999"
+				"355975F61CF7C91D"
+				"1E7B632D3CCECD5D"
+			]
+			id: "35E9B0415976C8D7"
+			tasks: [{
+				id: "63E1B24CFF7428A8"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1477E058A918E999"
+				"4922B82ABEB2D15A"
+			]
+			id: "355975F61CF7C91D"
+			tasks: [{
+				id: "65E4F0B5D2B7A942"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "1E7B632D3CCECD5D"
+			tasks: [{
+				id: "6B1AFE12946CA018"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "7A63A37D0D1794FD"
+			tasks: [{
+				id: "1D11227B1ED732A9"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["355975F61CF7C91D"]
+			id: "79E62802795F12F9"
+			optional: true
+			tasks: [{
+				id: "5CC86D7073C0947B"
+				item: "createdieselgenerators:engine_silencer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79E62802795F12F9"]
+			id: "7B2FBBB1189538B0"
+			optional: true
+			tasks: [{
+				id: "30E38900EF88E1B3"
+				item: "createdieselgenerators:engine_turbocharger"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EB2D248A00FF037"]
+			id: "6FA969B3742A9F71"
+			optional: true
+			tasks: [{
+				id: "630D0BBA1CD0DDB8"
+				item: "createdieselgenerators:basin_lid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4922B82ABEB2D15A"]
+			id: "4EB2D248A00FF037"
+			optional: true
+			tasks: [{
+				id: "3ECE6FC9D5DFB08C"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A63A37D0D1794FD"]
+			id: "6E59FBBC9D5235FE"
+			tasks: [{
+				id: "30CDF365CFAEA793"
+				item: "createdieselgenerators:pumpjack_hole"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A63A37D0D1794FD"]
+			id: "6076DFA5B9B103B7"
+			tasks: [{
+				id: "3E9710A843152EAB"
+				item: "createdieselgenerators:pumpjack_bearing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A63A37D0D1794FD"]
+			id: "5FAB317574CCC2CD"
+			tasks: [{
+				id: "0F8CC00B35FA86F4"
+				item: "createdieselgenerators:pumpjack_crank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A63A37D0D1794FD"]
+			id: "4CCB57BA4D4D125D"
+			tasks: [{
+				id: "7CFBE6A209889E62"
+				item: "createdieselgenerators:pumpjack_head"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4CCB57BA4D4D125D"
+				"6076DFA5B9B103B7"
+				"6E59FBBC9D5235FE"
+				"5FAB317574CCC2CD"
+			]
+			id: "217322C96D4D8312"
+			tasks: [{
+				id: "2F7313E41666ABFD"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FA969B3742A9F71"]
+			id: "1EE2764A54C36743"
+			optional: true
+			tasks: [{
+				id: "0438CB882F9FCAEF"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EB2D248A00FF037"]
+			id: "3363E8DC17090240"
+			optional: true
+			tasks: [{
+				id: "6248F987D3E77EB7"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3363E8DC17090240"]
+			id: "5B19A9F9C914EF32"
+			optional: true
+			tasks: [{
+				id: "0681C026D217F0A3"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217322C96D4D8312"]
+			id: "42A6962271A555F3"
+			optional: true
+			tasks: [{
+				id: "421A9AC6F79043B0"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B19A9F9C914EF32"
+				"1EE2764A54C36743"
+				"2C7E072F2DEC3975"
+				"5FC878E2D7B6965D"
+			]
+			id: "329225C14F55601F"
+			optional: true
+			tasks: [{
+				id: "068E819880FA62F0"
+				item: "createdieselgenerators:biodiesel_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3363E8DC17090240"]
+			id: "2C7E072F2DEC3975"
+			optional: true
+			tasks: [{
+				id: "6641756900461B24"
+				item: "createaddition:seed_oil_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EB2D248A00FF037"]
+			id: "72578527E0D85613"
+			optional: true
+			tasks: [{
+				id: "5E722E2DBB4809DB"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72578527E0D85613"]
+			id: "5FC878E2D7B6965D"
+			optional: true
+			tasks: [{
+				id: "108088FAD4F7FF4C"
+				item: "createaddition:bioethanol_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42A6962271A555F3"]
+			id: "566BAF99A7CED8A1"
+			optional: true
+			tasks: [{
+				id: "26F5E42BA8576F94"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42A6962271A555F3"]
+			id: "0165B09EEEF419EE"
+			optional: true
+			tasks: [{
+				id: "7C10529F21687A02"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+	]
+	title: "&6Diesel Generators"
+}

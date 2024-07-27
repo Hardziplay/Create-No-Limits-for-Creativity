@@ -1,0 +1,515 @@
+{
+	autofocus_id: "4B99FE0FD9839B25"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_age"
+	group: "737220849E0C3778"
+	icon: "create_new_age:generator_coil"
+	id: "291ED9CE8D5E28B2"
+	order_index: 2
+	quest_links: [{
+		id: "787E1006E2D4CDAC"
+		linked_quest: "0D83FF165A7C1618"
+		shape: "diamond"
+		size: 2.0d
+		x: -1.0d
+		y: 5.0d
+	}]
+	quests: [
+		{
+			id: "4B99FE0FD9839B25"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "68ED07E7A66547CD"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B99FE0FD9839B25"]
+			id: "5179B7DE346D8E12"
+			tasks: [{
+				id: "002B9EDA23C49BAD"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76C19939229A72BE"]
+			id: "1662B8A52793CC56"
+			tasks: [{
+				id: "6EB3EFBB5649D72A"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1662B8A52793CC56"
+				"0A311F0E2F6A5AF6"
+			]
+			id: "19CCD19E0838C054"
+			tasks: [{
+				id: "38D6FDA1F498FBD4"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"19CCD19E0838C054"
+				"11501D54527EC722"
+			]
+			id: "573C2BC68DC2BC57"
+			tasks: [{
+				id: "15FED751B1D21051"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5179B7DE346D8E12"]
+			id: "76C19939229A72BE"
+			tasks: [{
+				id: "14F2DDC1585E9F1C"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A311F0E2F6A5AF6"]
+			id: "0D7B6EDAD4AC4B31"
+			tasks: [{
+				id: "3DCE27EE3F82BC66"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76C19939229A72BE"]
+			id: "0A311F0E2F6A5AF6"
+			tasks: [{
+				id: "4A3EAADE9D2B7C1B"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D7B6EDAD4AC4B31"]
+			id: "11501D54527EC722"
+			tasks: [{
+				id: "40504190B234818A"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["11501D54527EC722"]
+			id: "32E83387B9308614"
+			size: 1.0d
+			tasks: [{
+				id: "3BF32805430C638F"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"11501D54527EC722"
+				"573C2BC68DC2BC57"
+			]
+			id: "79FB67D68DC92F58"
+			tasks: [{
+				id: "0913724CD6F609BB"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5179B7DE346D8E12"]
+			id: "48B1074ECCE9B95F"
+			tasks: [{
+				id: "348480ED97426619"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76C19939229A72BE"]
+			id: "25D7013FB873852F"
+			tasks: [{
+				id: "721FAFDAFC6366A5"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"48B1074ECCE9B95F"
+				"25D7013FB873852F"
+			]
+			id: "3F13C563E301B958"
+			optional: true
+			tasks: [{
+				id: "118F3FBAD9B2DF47"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D7013FB873852F"]
+			id: "5E56BB87013DB689"
+			optional: true
+			tasks: [{
+				id: "7B3CAF21CE2DF654"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D83FF165A7C1618"]
+			id: "25B5D1B9272CB04A"
+			optional: true
+			tasks: [{
+				id: "3BC6018AAAD8224B"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25B5D1B9272CB04A"]
+			id: "084AED60C8B8C17E"
+			optional: true
+			tasks: [{
+				id: "5DC2887D66ACD483"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"25D7013FB873852F"
+				"25B5D1B9272CB04A"
+			]
+			id: "4F51CEE23FF9610C"
+			optional: true
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "07D8511D369CD811"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4F51CEE23FF9610C"
+				"084AED60C8B8C17E"
+			]
+			id: "61A98475198B64C8"
+			optional: true
+			tasks: [{
+				id: "641D8961F519B949"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"25D7013FB873852F"
+				"05C620C94DCC6A03"
+			]
+			id: "5D9927EE4100FAE7"
+			optional: true
+			tasks: [{
+				id: "35F237E42E5110D9"
+				item: "create_new_age:overcharged_iron_sheet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D9927EE4100FAE7"]
+			id: "0D9CAE072EC2CE45"
+			optional: true
+			tasks: [{
+				id: "000FB2A028EEEB76"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0A311F0E2F6A5AF6"
+				"63B46AE2778C071A"
+			]
+			id: "597853FC1874B253"
+			optional: true
+			tasks: [{
+				id: "4EDEA03B1E1E401B"
+				item: "create_new_age:overcharged_golden_sheet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76C19939229A72BE"]
+			id: "63B46AE2778C071A"
+			optional: true
+			tasks: [{
+				id: "320E2D9CEF245F3C"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76C19939229A72BE"]
+			id: "05C620C94DCC6A03"
+			optional: true
+			tasks: [{
+				id: "3064F436CBD8299B"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["597853FC1874B253"]
+			id: "4145F2972681AD46"
+			optional: true
+			tasks: [{
+				id: "4CD9D336B13C39C8"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11501D54527EC722"]
+			id: "5BFD763B28090DCD"
+			tasks: [{
+				id: "6D0C3664B2FFC8FC"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5BFD763B28090DCD"
+				"11501D54527EC722"
+			]
+			id: "791DAAA0E2DCAAE9"
+			tasks: [{
+				id: "48621523D24033E8"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32E83387B9308614"]
+			id: "66EC14995284524C"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "14D0852DE8D19945"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66EC14995284524C"]
+			id: "441928DCCE61CC50"
+			tasks: [{
+				id: "1E167A0D396BC986"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66EC14995284524C"]
+			id: "557CC81D8FDA9DE6"
+			tasks: [{
+				id: "00131BF821CA1A7B"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66EC14995284524C"]
+			id: "7DB708EDA0B6899F"
+			tasks: [{
+				id: "4D867A67D222ED0A"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32E83387B9308614"]
+			hide: false
+			hide_dependency_lines: true
+			icon_scale: 0.9d
+			id: "239E79CB2A824720"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2C05466D5E76DCCE"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["239E79CB2A824720"]
+			id: "6F43478A44138D3A"
+			tasks: [{
+				id: "063EB5A9688B67F3"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F43478A44138D3A"]
+			id: "648C26FAE5E611AB"
+			tasks: [{
+				id: "73770F5B08E72AC2"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"648C26FAE5E611AB"
+				"66EC14995284524C"
+			]
+			id: "3D3168E7216E22E5"
+			tasks: [{
+				id: "1E79402F80DEEC65"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25B5D1B9272CB04A"]
+			id: "5BC1D9ED671335AB"
+			optional: true
+			tasks: [{
+				id: "28657ECA2E3E8051"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25B5D1B9272CB04A"]
+			id: "4C46AEF666504770"
+			optional: true
+			tasks: [{
+				id: "23022F80C2E14B1E"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7DB708EDA0B6899F"
+				"441928DCCE61CC50"
+				"557CC81D8FDA9DE6"
+				"3D3168E7216E22E5"
+			]
+			description: ["That was a crucial mistake..."]
+			id: "4B3344CB882A507E"
+			invisible: true
+			optional: true
+			subtitle: "That was a crucial mistake..."
+			tasks: [{
+				id: "0741896EDADEB1C0"
+				item: "create_new_age:corium"
+				type: "item"
+			}]
+			title: "Woops!"
+			x: 26.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11501D54527EC722"]
+			id: "40D594E1FC213E35"
+			tasks: [{
+				id: "6DB8BE93EE0BDC42"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+	]
+	title: "Electricity"
+}

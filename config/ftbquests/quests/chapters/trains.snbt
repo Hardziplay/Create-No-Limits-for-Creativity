@@ -6,7 +6,7 @@
 	group: "737220849E0C3778"
 	icon: "railways:handcar"
 	id: "78D15EF33C7B27DE"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -98,6 +98,7 @@
 			dependencies: ["676DE5558A45E6C9"]
 			description: ["Place an inventory with any fuel on your train to speed it up"]
 			id: "1450AAF675A14446"
+			optional: true
 			subtitle: "Place an inventory with any fuel on your train"
 			tasks: [{
 				id: "727DEE90C0D1F490"
@@ -112,6 +113,7 @@
 			dependencies: ["1450AAF675A14446"]
 			description: ["Place a fluid tank with any fuel on your train to speed it up"]
 			id: "6D05F01CA53F0EE2"
+			optional: true
 			subtitle: "Place a fluid tank with any fuel on your train to speed it up"
 			tasks: [
 				{

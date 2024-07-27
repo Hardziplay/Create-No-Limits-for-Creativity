@@ -2,5 +2,7 @@
 	chapter_groups: [
 		{ id: "15DF6CFCD42A7935", title: "I. &2Vanilla" }
 		{ id: "737220849E0C3778", title: "II. &6Create" }
+		{ id: "088C0FB7AE070236", title: "III. Food" }
+		{ id: "005A70CFA1A174F4", title: "III. Space" }
 	]
 }

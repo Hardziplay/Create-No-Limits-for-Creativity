@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vinery"
+	group: "088C0FB7AE070236"
+	icon: "vinery:taiga_grapes_red"
+	id: "42D21E72360A444D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Vinery"
+}
